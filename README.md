@@ -1,4 +1,4 @@
-🧠 COVID-19 Detection from Chest X-Ray Images using CNN and Transfer Learning
+COVID-19 Detection from Chest X-Ray Images using CNN and Transfer Learning
 
 This repository contains the complete implementation for a research reproduction and extension project based on the paper:
 “Artificial Intelligence Applied to Chest X-Ray Images for the Automatic Detection of COVID-19: A Thoughtful Evaluation Approach”
@@ -6,13 +6,16 @@ IEEE Xplore link
 
 The project replicates the key methodology of the paper using public datasets and extends it with a three-class classification task — distinguishing between COVID-19, Normal, and Viral Pneumonia chest X-rays.
 
-📂 Project Structure
+Project Structure
 
 The repository is organized into two main parts:
 
 1_Baseline_CNN/
 
 Contains the reproduction of the original paper’s baseline experiment using a custom CNN architecture trained on a balanced subset of the COVID-19 Radiography Database from Kaggle.
+
+Kaggle link: https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
+/data 
 
 notebooks/ — Jupyter/Colab notebook with full code.
 
@@ -34,7 +37,7 @@ Training, validation, and evaluation results.
 
 Accuracy and loss curves.
 
-🚀 Part 1: Baseline Reproduction (Binary Classification)
+Part 1: Baseline Reproduction (Binary Classification)
 
 This phase re-implements the original CNN-based approach for binary classification (COVID vs Normal) using a compact architecture built in TensorFlow/Keras.
 
@@ -69,7 +72,7 @@ Confusion matrix visualization
 
 Classification report with precision, recall, and F1-score
 
-🔬 Part 2: Transfer Learning & 3-Class Extension
+Part 2: Transfer Learning & 3-Class Extension
 
 This phase introduces two improvements:
 
